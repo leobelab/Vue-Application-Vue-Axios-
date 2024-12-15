@@ -43,6 +43,7 @@ export default {
   },
   methods: {
     toggleModal() {
+      this.title = 'My Second Vue App :(',
       this.showModal = !this.showModal
     },
     toggleModalTwo() {

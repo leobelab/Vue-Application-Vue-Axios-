@@ -6,6 +6,7 @@
                 <slot name="links"></slot>
             </div>
         </div>
+        <h1>Exemple</h1>
     </div>
 </template>
 
@@ -19,7 +20,6 @@ export default {
     }
 }
 </script>
-
 
 <style>
     .modal {
@@ -40,6 +40,12 @@ export default {
         color: #03cfb4;
         border: none;
         padding: 0;
+    }
+    h1 {
+        color: #03cfb4;
+        border: none;
+        padding: 0;
+        background: rgb(255, 255, 255);
     }
     .modal p {
         font-style: normal;
